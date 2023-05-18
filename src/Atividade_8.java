@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Atividade_8 {
     public static void main(String[] args){
         int idade;
-        String nome, sexo;
+        String sexo;
+        String nome;
         double salario, salario_liquido;
         Scanner scanner = new Scanner(System.in);
         System.out.println("informe o nome: ");
@@ -24,19 +25,19 @@ public class Atividade_8 {
         System.out.println("informe o salario: ");
         salario = scanner.nextDouble();
 
-        if (sexo == "m" && idade >= 30){
+        if (sexo.toLowerCase().contains("m") && idade >= 30){
             salario_liquido = salario + 100;
             System.out.println(salario_liquido);
         }
-        else if (sexo == "m" && idade < 30){
+        else if (sexo.toLowerCase().contains("m") && idade < 30){
             salario_liquido = salario + 80;
             System.out.println(salario_liquido);
         }
-        else if (sexo == "f" && idade >= 30){
+        else if (sexo.toLowerCase().contains("f") && idade >= 30){
             salario_liquido = salario + 200;
             System.out.println(salario_liquido);
         }
-        else if (sexo == "f" && idade < 30){
+        else if (sexo.toLowerCase().contains("f") && idade < 30){
             salario_liquido = salario + 50;
             System.out.println(salario_liquido);}
         else{
