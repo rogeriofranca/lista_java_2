@@ -23,27 +23,6 @@ public class Atividade_3
         System.out.println(numero_livro +"-"+ valor_total);
 
 
-//        switch (numero_livro){
-//            case 9:
-//                valor_total = numero_livro * 12.0;
-//                System.out.println(numero_livro +"-"+valor_total);
-//                break;
-//            case 10:
-//                valor_total = numero_livro * 12.0;
-//                System.out.println(numero_livro +"-"+valor_total);
-//                 break;
-//            case 11:
-//                valor_total = numero_livro * 8.0;
-//                System.out.println(numero_livro +"-"+valor_total);
-//                break;
-//
-//            default:
-//                System.out.println("numero invalido");
-//
-//
-//
-//
-//    }
 
     }
 
